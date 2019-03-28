@@ -1,4 +1,6 @@
 spring:
+  cloud:
+spring:
   profiles:
     active: -dev
 ---
