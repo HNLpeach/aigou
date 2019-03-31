@@ -23,3 +23,14 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka/
+---
+server:
+  port: 8003
+spring:
+  application:
+    name: MICRO-SERVER-BAND
+  profiles: band #开发环境
+eureka:
+  client:
+    service-url:
+defaultZone: http://localhost:7001/eureka/
