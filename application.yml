@@ -41,6 +41,7 @@ server:
 spring:
   application:
     name: COMMON-PRIVODER
+  profiles: common #开发环境
 eureka:
   instance:
     hostname: localhsot
