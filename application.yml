@@ -43,6 +43,9 @@ spring:
     name: COMMON-PRIVODER
   profiles: common #开发环境
 eureka:
+  instance:
+    hostname: localhsot
+    prefer-ip-address: true
   client:
     service-url:
       defaultZone: http://localhost:7001/eureka/
